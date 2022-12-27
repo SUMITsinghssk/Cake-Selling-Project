@@ -1,0 +1,66 @@
+{{>header}}
+    <section>
+      <div class="contact_head">
+        <h1>Get In Touch</h1>
+      </div>
+      <div class="con_sec">
+        <div class="contact_section">
+          <div class="contact_first">
+            <h1>Contact Us</h1>
+            <div class="contact_phone">
+              <i class="fa fa-phone"></i>
+              <div>
+                <p>Apni Bakery</p>
+                <p>+012132-213123</p>
+              </div>
+            </div>
+            <h1>Email Address</h1>
+            <div class="contact_phone">
+              <i class="fa fa-envelope"></i>
+              <div class="cotact_p">
+                <p>assa@gmail.com</p>
+                <p>asda@gmail.com</p>
+              </div>
+            </div>
+            <h1>Office Location</h1>
+            <div class="contact_phone"> 
+                <i class="fa fa-bank"></i>
+              <div>
+                <p>
+                  123 Stree New York City , United States Of America NY 750065.
+                </p>
+              </div>
+            </div>
+            <div>
+              <h1>Follow Us</h1>
+              <div class="contact_icons">
+                <a href=""><i class="fa fa-facebook-f" id="facebook"></i></a>
+                <a href=""><i class="fa fa-twitter" id="facebook"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-youtube-play"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="contact_form">
+            <h1>Contact Me</h1>
+            <form action="" onsubmit="return contacMe()">
+                    <label for="">Name</label>
+                    <input type="text" id="contactName" placeholder="Your Name">
+                    <h5 id="coName"></h5>
+                    <label for="">Phone Number</label>
+                    <input type="text" id="contMob"
+                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10" placeholder="Mobile Number">
+                    <h5 id="contMo"></h5>
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Email" id="contEma">
+                    <h5 id="conEm"></h5>
+                    <label for="">Write Your Message</label>
+                    <textarea id="textArea" rows="5" placeholder="Write Your Message" id="textarea"></textarea>
+                    <h5 id="context"></h5>
+                <input type="submit" value="Submit Now">
+            </form>
+        </div>
+        </div>
+      </div>
+    </section>
+   {{>footer}}

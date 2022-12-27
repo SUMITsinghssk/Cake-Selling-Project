@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  position: relative;
+}
+.admin_add_btn{
+  position: absolute;
+  right:10px;
+  top:30px;
+}
+.admin_add_btn button{
+  background-color: #35a212;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+.admin_add_btn button:hover{
+  background-color: #44c419;
+  cursor: pointer;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #35a212;
+    color: white;
+  }
+  tr button{
+    background-color: #35a212;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  tr button:hover{
+    background-color: #44c419;
+    cursor: pointer;
+  }
+  tr td span{
+    color: red;
+    font-size: 12px;
+  }
+  .pro_img{
+    width:80px;
+  }
+  .pro_img img{
+    width:100%;
+  }
+  .cusyomer_head{
+    background-color: #35a212;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  .customer_buy{
+    margin-top: 20px;
+  }

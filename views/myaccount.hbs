@@ -1,0 +1,88 @@
+{{>header}}
+      <section>
+        <div class="admin">
+            <h2>Hello, Admin welcome to your dashboard!</h2>
+            <div class="admin_section">
+                <div class="admin_section_one">
+                    <h1>My Profile</h1>
+                    <button onclick="dash()">Dashboard</button>
+                    <button onclick="dashAddress()">Addesses</button>
+                    <button><a href=""> Wishlist</a></button>
+                    <button><a href="">Log Out</a></button>
+                </div>
+                <div class="admin_section_two">
+                    <div id="dash" class="order_dashboard">
+                        <div class="hide_hr">
+                            <hr>
+                        </div>
+                        <h1>Orders History</h1>
+                        <table id="customer">
+                            <tr>
+                                <th>Order</th>
+                                <th>Date</th>
+                                <th>Payment Status</th>
+                                <th>Total</th>
+                            </tr>
+                            <tr>
+                                <td>#2014</td>
+                                <td>24/4/2022</td>
+                                <td>Paid</td>
+                                <td>$24.00</td>
+                            </tr>
+                            <tr>
+                                <td>#2014</td>
+                                <td>24/4/2022</td>
+                                <td>Paid</td>
+                                <td>$24.00</td>
+                            </tr>
+                            <tr>
+                                <td>#2014</td>
+                                <td>24/4/2022</td>
+                                <td>Paid</td>
+                                <td>$24.00</td>
+                            </tr>
+                            <tr>
+                                <td>#2014</td>
+                                <td>24/4/2022</td>
+                                <td>Paid</td>
+                                <td>$24.00</td>
+                            </tr>
+                            <tr>
+                                <td>#2014</td>
+                                <td>24/4/2022</td>
+                                <td>Paid</td>
+                                <td>$24.00</td>
+                            </tr>
+                            <tr>
+                                <td>#2014</td>
+                                <td>24/4/2022</td>
+                                <td>Paid</td>
+                                <td>$24.00</td>
+                            </tr>
+                            <tr>
+                                <td>#2014</td>
+                                <td>24/4/2022</td>
+                                <td>Paid</td>
+                                <td>$24.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="admin_add" class="admin_address">
+                        <h1>Addresses</h1>
+                        <button class="admin_btn">Add a new address</button>
+                        <h3>Default</h3>
+                        <p>Admin</p>
+                        <p>Dhaka</p>
+                        <p>Dhaka 12119</p>
+                        <p>Bangladesh</p>
+                        <a href="">View Addresses(1)</a>
+                        <div class="admin_btn3">
+                            <button>edit</button>
+                            <button>Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+     {{>footer}}

@@ -1,0 +1,160 @@
+{{>header}}
+    <section>
+      <div class="cart_section">
+        <h1 class="cart_secti">Shopping Cart</h1>
+        <div class="cart_sections">
+          <div class="cart_sec">
+            <hr>
+            <div class="cart">
+              <div class="cart_products">
+                <i class="fa fa-close"></i>
+              </div>
+              <div class="cart_checkout">
+                <div class="cart_img">
+                  <img src="images/cart/pastry.png" alt="" />
+                </div>
+                <div class="cart_product_details">
+                  <h1>Fresh Cake</h1>
+                  <p>COLOR:Blue</p>
+                  <p>Weight:2kg</p>
+                </div>
+              </div>
+              <div class="cart_price">
+                <p>65$</p>
+              </div>
+              <div class="cart_addmore">
+                <button
+                class="cart_btnone"
+                id="decrease"
+                value="">-</button>
+                <input type="text" id="number" value="1"oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+                <button
+                class="cart_btntwo"
+                id="increase"
+                value=""
+                >
+                +
+                </button>
+              </div>
+              <div class="cart_total">
+                <span>Total:</span>
+                <p>160$</p>
+              </div>
+            </div>
+            <hr>
+            <div class="cart_sec">
+              <div class="cart">
+                <div class="cart_products">
+                  <i class="fa fa-close"></i>
+                </div>
+                <div class="cart_checkout">
+                  <div class="cart_img">
+                    <img src="images/cart/pastry.png" alt="" />
+                  </div>
+                  <div class="cart_product_details">
+                    <h1>Fresh Cake</h1>
+                    <p>COLOR:Blue</p>
+                    <p>Weight:2kg</p>
+                  </div>
+                </div>
+                <div class="cart_price">
+                  <p>65$</p>
+                </div>
+                <div class="cart_addmore">
+                  <button
+                  class="cart_btnone"
+                  id="decrease"
+                  value=""
+                  >
+                  -
+                  </button>
+                  <input type="text" id="number" value="1" min="0" max="8"/>
+                  <button
+                    class="cart_btntwo"
+                    id="increase"
+                    value=""
+                  >
+                  +
+                  </button>
+                </div>
+                <div class="cart_total">
+                  <span>Total:</span>
+                  <p>160$</p>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="cart_sec">
+              <div class="cart">
+                <div class="cart_products">
+                  <i class="fa fa-close"></i>
+                </div>
+                <div class="cart_checkout">
+                  <div class="cart_img">
+                    <img src="images/cart/pastry.png" alt="" />
+                  </div>
+                  <div class="cart_product_details">
+                    <h1>Fresh Cake</h1>
+                    <p>COLOR:Blue</p>
+                    <p>Weight:2kg</p>
+                  </div>
+                </div>
+                <div class="cart_price">
+                  <p>65$</p>
+                </div>
+                <div class="cart_addmore">
+                  <button
+                  class="cart_btnone"
+                  id="decrease"
+                  value=""
+                  >
+                  -
+                  </button>
+                  <input type="text" id="number" value="1" />
+                  <button
+                    class="cart_btntwo"
+                    id="increase"
+                    value=""
+                  >
+                  +
+                  </button>
+                </div>
+                <div class="cart_total">
+                  <span>Total:</span>
+                  <p>160$</p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="cart_oneteo">
+            <h1>Coupon</h1>
+            <p>Enter your coupon code if you have one.</p>
+            <form action="">
+              <input type="text" placeholder="Coupon code">
+              <button>Apply Code</button>
+            </form>
+            <h2>Note</h2>
+            <p>Add special instructions for your seller...</p>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+            <div class="cart_coup">
+              <div class="cart_subtot">
+                <p>SUBTOTAL</p>
+                <p>$600.00</p>
+              </div>
+              <div class="cart_grand_tot">
+                <p>GRAND TOTAL</p>
+                <p>$870.00</p>
+              </div>
+            </div>
+            <p class="cart_ship">Shipping & taxes calculated at checkout</p>
+            <div class="cart_btn">
+              <button>Update Cart</button>
+              <button>Check Out</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   {{>footer}}

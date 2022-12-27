@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Apni Bakery</h1>
+        <div class="seller_signin">
+            <h2>Create Account</h2>
+            <form action="" onsubmit="return createError()">
+                <label for="">Your Name</label>
+                <input type="text" id="create_seller_name" placeholder="First and last name">
+                <h5 id="create_error"></h5>
+                <label for="">Mobile Number</label>
+                <input type="text"
+    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10" placeholder="Mobile Number"/>
+                <label for="">Email address(optional)</label>
+                <input type="email">
+                <label for="">Password</label>
+                <input type="password" placeholder="At least 6 characters" id="create_password">
+                <h5 id="create_pass_error"></h5>
+                <input type="submit" value="Continue">
+            </form>
+        </div>
+        <div class="already_create">
+            <p>Already have an account<span>Sign In?</span></p>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+{{>header}}
+    <section>
+      <div class="product_details">
+        <div class="product_grid">
+          <div class="product_image">
+            <div class="prod_img">
+              <!-- class="pro_one" -->
+              <img id="pro_one" src="images/product details/cake.png" alt=""/>
+              <img id="pro_one" src="images/product details/cake2.png" alt=""/>
+            </div>
+            <div class="pro_sub_img">
+              <img onclick="pro_one()" src="images/product details/cake.png" alt=""/>
+            </div>
+          </div>
+          <div class="product_detail">
+            <div class="pro_details">
+              <h1>Red Welwet</h1>
+              <p class="pro_pri">$58.00 <span>$68.00</span></p>
+              <p class="pro_star">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span>(24)</span>
+              </p>
+              <p class="pro_para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum praesentium soluta quam autem et quod quidem beatae
+                laborum amet perspiciatis?
+              </p>
+              <div class="product_weight">
+                <h2>Weight:</h2>
+                <button>5kg</button>
+                <button>3kg</button>
+                <button>2kg</button>
+              </div>
+              <div class="product_increase">
+                <button
+                  class="pro_btn_one"
+                  id="decrease"
+                  onclick="decreaseValue()"
+                  value=""
+                >
+                  -
+                </button>
+                <input type="text" id="number" value="1"/>
+                <button
+                  class="pro_btn_two"
+                  id="increase"
+                  onclick="increaseValue()"
+                  value=""
+                >
+                  +
+                </button>
+                <button class="pro_btn">Add to Cart</button>
+              </div>
+              <div class="product_wishlist">
+                <a href=""><i class="fa fa-heart"></i> Add to Wishlist</a>
+              </div>
+              <div class="pro_buy_now">
+                <button>Buy it now</button>
+              </div>
+              <div class="pro_type">
+                <p><span>Barcode</span>:565461</p>
+                <p><span>Sky:</span>4420</p>
+                <p><span>Vendor:</span>Belo</p>
+                <p><span>Type:</span>Foods</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="pro_dis">
+        <div class="pro_discription">
+          <ul>
+            <li onclick="proDis()" id="prodis" class="pro_active">Description</li>
+            <li onclick="proRev()" id="prorev">Product Reviews</li>
+            <li onclick="proAdd()" id="proadd">Additional Info</li>
+          </ul>
+        </div>
+        <div class="pro_discrip">
+          <div class="description" id="discripton">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+              exercitationem, voluptates, dolore ipsum tempora praesentium quas
+              facere facilis nihil incidunt tenetur illo omnis pariatur aperiam
+              maiores laudantium ea sed architecto delectus beatae, quo
+              accusantium ratione. Accusantium molestias cupiditate repellendus
+              eos?
+            </p>
+            <h2>More Details</h2>
+            <ul>
+              <li>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Impedit, ipsum.
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati, sint!
+              </li>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Facere, iure!
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium, ipsam.
+              </li>
+            </ul>
+          </div>
+          <div class="product_reviews" id="product_revi">
+            <h1>Customer Reviews</h1>
+            <p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <hr />
+            <div class="pro_rev">
+              <div class="pro_reeview">
+                <div class="pro_img">
+                  <img src="images/product review/image1.jpg" alt="" />
+                </div>
+                <div class="pro_details">
+                  <h1>Jake on</h1>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia magnam nesciunt maxime quibusdam enim impedit
+                    fugiat excepturi laudantium delectus iure.
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="pro_reeview">
+                <div class="pro_img">
+                  <img src="images/product review/image2.jpg" alt="" />
+                </div>
+                <div class="pro_details">
+                  <h1>Jake on</h1>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia magnam nesciunt maxime quibusdam enim impedit
+                    fugiat excepturi laudantium delectus iure.
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="pro_reeview">
+                <div class="pro_img">
+                  <img src="images/product review/image3.webp" alt="" />
+                </div>
+                <div class="pro_details">
+                  <h1>Jake on</h1>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia magnam nesciunt maxime quibusdam enim impedit
+                    fugiat excepturi laudantium delectus iure.
+                  </p>
+                </div>
+              </div>
+              <hr>
+              <div class="pro_rev">
+                <h1>Add a review</h1>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <form action="">
+                  <textarea name="" id="" cols="30" rows="7" placeholder="Your comments.."></textarea><br>
+                  <input type="text" placeholder="Your Name...">
+                  <input type="email" placeholder="Your Email...">
+                  <br>
+                  <input type="submit" value="SUBMIT">
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="pro_additional" id="pro_add">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat praesentium nobis ullam esse doloremque excepturi facere maxime autem quia natus nihil sed incidunt necessitatibus mollitia delectus, blanditiis ab? Iure magnam soluta praesentium! Quas quasi distinctio necessitatibus at eligendi minima tempora accusantium aspernatur dignissimos deserunt eum ea repellat reiciendis, vitae est?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+{{>footer}}

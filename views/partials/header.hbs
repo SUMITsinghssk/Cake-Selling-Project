@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="home_header">
+        <div class="home_top">
+          <div class="home_logo">
+            <a href=""><img src="images/home/logo.png" alt="" /></a>
+          </div>
+          <div class="home_search">
+            <form action="">
+              <input type="text" placeholder="Search Product" />
+              <button>Search</button>
+            </form>
+          </div>
+          <div class="home_right">
+            <div class="my_account">
+              <a><i class="fa fa-user" onclick="profileBtn()"></i></a>
+              <div class="profile_buttons" id="profile_bt">
+                <div class="profile_abo">
+                  <a href="">Profile</a>
+                  <a href="">Log Out</a>
+                </div>
+              </div>
+            </div>
+            <div class="home_crate">
+              <a href="/cart"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            <div class="home_wishlist">
+              <a href="/wishlist"><i class="fa fa-heart"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="head_nav">
+        <div class="left_nav" onclick="head_btn2()" onblur="myFunction()">
+          <i class="fa fa-bars"></i>All Categories
+          <div id="head_categories">
+            <ul id="head_categorie">
+              <li><a href="">Cake</a></li>
+              <li><a href="">Pastries</a></li>
+              <li><a href="">Birthday Cake</a></li>
+              <li><a href="">Party Cake</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="center_nav">
+          <div id="head_mobile" onclick="head_btn()">
+            <i class="fa fa-bars"></i>
+          </div>
+          <ul id="head_nav_hide">
+            <a href="/"> <li>Home</li></a>
+            <a href="/shop"><li>Shop</li></a>
+            <a href="/contact"><li>Contact Us</li></a>
+            <a href="/about"><li>About US</li></a>
+            <a href="/sellercreateid"><li>Sell</li></a>
+          </ul>
+        </div>
+        <div class="right_nav">
+          <h5>24/7 Support</h5>
+          <p><a href="">7456878881</a></p>
+        </div>
+      </div>
+    </nav>

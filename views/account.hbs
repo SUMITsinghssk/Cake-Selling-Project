@@ -1,0 +1,85 @@
+{{>header}}
+
+    <section>
+      <div class="account">
+        <div class="account_login">
+          <h1>Login</h1>
+          <p>Login if you are a returning sustomer.</p>
+          <form onsubmit="return loginPage()">
+            <div>
+              <label for="">E-mail</label><br />
+              <input
+                type="email"
+                name=""
+                id="logi_email"
+                value=""
+                placeholder="E-mail"
+              />
+              <p id="login_email"></p>
+            </div>
+            <div class="login_eye">
+              <label>Password</label><br />
+              <input
+                type="password"
+                id="password"
+                placeholder="Password"
+                value=""
+              />
+              <p id="login_pass"></p>
+              <i onclick="seen()" class="fa fa-eye eye" id="color"></i>
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label for="">Remember me</label>
+              <button>Forget Your Password?</button>
+            </div>
+            <input type="submit" value="submit" />
+          </form>
+          <h2 class="login_head">OR</h2>
+          <div class="login_fb">
+            <a href=""
+              ><button style="background-color: blue">Facebook</button></a
+            >
+            <a href=""
+              ><button style="background-color: orange">Google</button></a
+            >
+            <a href=""
+              ><button style="background-color: blue">twitter</button></a
+            >
+          </div>
+          <div class="login_sign">
+            <p>Don't Have an Account? <a href="">Sign up now</a></p>
+          </div>
+        </div>
+        <div class="account_login">
+          <h1>Create an Account</h1>
+          <p>Register here if you are a new customer</p>
+          <form onsubmit="return myFun()">
+            <div>
+                <label>Username</label><br>
+                <input type="text" value="" id="username" placeholder="Username"><p id="demo"></p>
+            </div>
+            <div>
+              <label for="">E-mail</label><br>
+              <input type="email" name="" id="ail" value="" placeholder="E-mail"><p id="demo4"></p>
+            </div>
+            <div>
+                <label>Password</label><br>
+                <input type="password" id="passw" placeholder="Password" value=""><p id="demo1"></p>
+            </div>
+            <div>
+                <label>Confirm Password</label><br>
+                <input type="password" id="passwords" value="" placeholder="Confirm Password"><p id="demo2"></p>
+            </div>
+            <div>
+              <input type="checkbox" id="check">
+              <label for="">I have read and agree to the terms & conditions</label>
+            </div>
+            <input type="submit" value="submit">
+        </form>
+        </div>
+      </div>
+      <h1 id="api_fetch"></h1>
+    </section>
+
+   {{>footer}}
